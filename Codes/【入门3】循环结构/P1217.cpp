@@ -4,8 +4,7 @@
 #include<algorithm>
 using namespace std;
 
-void isPrime(long b);
-vector<bool> prime;
+void isPrime();
 
 int main(){
     long a,b;
@@ -23,6 +22,7 @@ int main(){
     return 0;
 }
 
+vector<bool> prime;
 void isPrime(long b){
     prime[0]=prime[1]=false;
     for (long i=2;i*i<=b;i++){
@@ -33,6 +33,5 @@ void isPrime(long b){
         }
     }
 }
-
-
 //质数筛
+
