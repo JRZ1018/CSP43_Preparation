@@ -14,9 +14,4 @@ int main(){
         if (i%n==0) cout<<endl;
     }
     cout<<endl;
-    int count=0,row=1;
-    for (int i=1;row<=n;i++){
-        cout<<string("  "*(n-row));
-        
-    }
 }
