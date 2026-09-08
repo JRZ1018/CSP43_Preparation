@@ -14,4 +14,16 @@ int main(){
         if (i%n==0) cout<<endl;
     }
     cout<<endl;
+    int count=1;
+    for (int row=1;row<=n;row++){
+        cout<<string(2*(n-row),' ');
+        int row1=row;
+        while(row1>0){
+            cout<<ntos1(count);
+            count++;
+            row1--;
+        }
+        cout<<endl;
+    }
+    return 0;
 }
